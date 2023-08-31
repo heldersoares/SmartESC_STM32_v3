@@ -5,7 +5,7 @@
 
 // speed limits for invividual modes in kph
 #define SPEEDLIMIT_ECO 6
-#define SPEEDLIMIT_NORMAL 20
+#define SPEEDLIMIT_NORMAL 10
 #define SPEEDLIMIT_SPORT 50
 
 // motor current limits for invividual modes in mA
@@ -15,7 +15,7 @@
 #define PH_CURRENT_MAX_SPORT 25000
 
 // motor current limit for regen in mA
-#define REGEN_MAX_CURRENT 10000
+#define REGEN_MAX_CURRENT 1500 // 1.5 A
 
 // maximum current for field weakening in mA
 #define FIELD_WEAKNING_CURRENT_MAX 0 //max id
